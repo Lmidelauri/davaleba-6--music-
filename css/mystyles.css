@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 94px;
+    background-color: black;
+    padding: 12px 100px;
+}
+ header h1{
+    width: 70px;
+    height: 70px;
+    background-image: url(../images/music-note.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-indent: -9999999px;
+    float: left;
+}
+h1 a{
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+header nav ul {
+    margin-left: 170px;
+    padding-top: 26px;
+}
+header nav ul li{
+  float: left;
+  margin-right: 20px;
+}
+header nav ul li a{
+    color: #ffff;
+    padding: 5px 10px;
+    font-size: 18px;
+    position: relative;
+}
+
+header nav ul li a:after{
+        content: "";
+        width: 0%;
+        height: 3px;
+        background-color: #ffff;
+        position: absolute;
+        bottom:0;
+        left: 0;
+        transition: width 2s;
+    
+}
+header nav ul li a:hover::after{
+    width: 100%;
+}
+
+main{
+     padding: 50px 100px
+}
+.socialcontact {
+    width:  50px ;
+    height: 100px;
+    position: fixed;
+    top: 150px;
+    right: 0;
+
+}
+.socialitemfb{
+    width:50px ;
+    height: 50px;
+    background-image: url(../images/fb.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.socialitemfb:hover{
+    background-image: url(../images/facebook.png);
+}
+.socialiteminst{
+    width:50px ;
+    height: 50px;
+    background-image: url(../images/instagram.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.socialiteminst:hover{
+    background-image: url(../images/instagram2.png);
+}
+
+
+
+ section{
+     width: 90%;
+     height: 280px;
+     margin-top: 50px;
+     display: flex;
+     
+    
+ }
+.todayshits{
+    width: 35%;
+    height: 280px; 
+    margin-right: 5%;
+    
+    
+}
+.musicbox{
+    width: 100%;
+    height: 244px;
+    border: 1px solid black;
+    position: relative;
+    background-image: url(../images/sound.png);
+    background-repeat: repeat-x;
+    background-size: 25%;
+    background-position-y: 70px;
+}
+.todayshits p{
+    margin-top: 10px;
+}
+.todayshits p a{
+    color: black;
+    font-size:12px ;
+}
+.like{
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/like.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.like:hover{
+    background-image: url(../images/like\ 2.png);
+}
+
+.text{
+    margin-top: 50%;
+    margin-left: 2%;
+}
+.text h2{
+font-size: 18px;
+}
+.text p{
+font-size: 14px;
+}
+.latest{
+    margin-top: 30px;
+}
+footer{
+    clear: both;
+    width: 100%;
+    padding: 30px 0;
+    background-color: #000;  
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;  
+    
+}
+
+footer h1 {
+    width: 150px;
+    height: 150px;
+    background-image: url(../images/music-note.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-indent: -9999999px;
+    margin-top: 30px auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+footer p{
+    font-size: 18px;
+    color: #fff;
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+footer ul{
+    padding: 22px 170px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer ul{
+    padding: 10px;
+    color: #000;
+   
+ }
+ footer ul li a {
+     padding: 10px;
+     font-size: 18px;
+     color:#fff;
+ }
+  
+
+ /* playlist */
+ .playlists{
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    margin-left: 5%;
+    
+    
+}
+
+.playlist1{
+    width: 30%;
+    height: 300px;
+    padding-left: 10px;
+    transition: background-color 2s,
+    border 2s, color 2s ;
+}
+.playlist1:hover{
+    box-shadow:0px 0px 10px rgb(29, 28, 28);
+    background-color: rgb(111, 109, 109);
+   
+
+}
+.playlisthist li a {
+    font-size: 18px;
+    text-align: inherit;
+    text-decoration: none;
+    color: #000;
+}
+
+.musicsound{
+    width: 300px;
+    height: 90px;
+    display: flex;
+    margin: 60px auto;
+  
+}
+ 
+.playlists2{
+    margin-left: 5%;
+    width: 90%;
+    display: flex;
+    
+    
+}
+.hits{
+    margin-right: 10px;
+}
+
+ h3{
+    margin: 10px auto;
+    font-size: 36px;
+    text-align: center;
+    
+}
+
+

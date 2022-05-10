@@ -48,7 +48,7 @@ header nav ul li a:after{
         position: absolute;
         bottom:0;
         left: 0;
-        transition: width 2s;
+        transition: width 0.5s;
     
 }
 header nav ul li a:hover::after{
@@ -107,7 +107,7 @@ main{
 .musicbox{
     width: 100%;
     height: 244px;
-    border: 1px solid black;
+    border: 2.5px solid black;
     position: relative;
     background-image: url(../images/sound.png);
     background-repeat: repeat-x;
@@ -214,12 +214,12 @@ footer ul{
     width: 30%;
     height: 300px;
     padding-left: 10px;
-    transition: background-color 2s,
+    transition:
     border 2s, color 2s ;
 }
 .playlist1:hover{
     box-shadow:0px 0px 10px rgb(29, 28, 28);
-    background-color: rgb(111, 109, 109);
+    background-color: rgba(216, 213, 213, 0.818);
    
 
 }
